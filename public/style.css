@@ -1,0 +1,121 @@
+.user-box{
+    /* height: 300px; */
+    margin-bottom: 50px;
+}
+.avatar-img {
+    height: 200px;
+}
+.card-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  
+  .card-link:hover {
+    text-decoration: underline;
+  }
+  .user-details-box {
+    margin-left: 100px;
+    width: 400px;
+    padding: 20px 0;
+    gap: 10px
+  }
+
+  .avatar-div {
+    display: flex;
+    align-items: center;
+  }
+  .repo-box{
+    border: 2px solid black;
+    margin-right: 85px; 
+    margin-left: 10px;
+  }
+
+  .card-title {
+    font-size: 24px;
+    color: #438DCA;
+  }
+
+  .repo-list {
+    border: 2px solid black;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+  }
+
+  .topicBox {
+    display: inline-flex;
+    background-color: #438DCA;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .card-body {
+    padding: 12px 10px;
+  }
+
+  p{
+    margin-bottom: 1.2rem;
+  }
+
+  .user-blog-link{
+    margin-top: 10px;
+  }
+  .bio {
+    margin-top: 10px;
+  }
+
+  .user-box i {
+    margin-right: 10px;
+  }
+
+  .boldText {
+    font-weight: 500;
+  }
+
+  .colorBlue {
+    color: #438DCA;
+  }
+
+  .bgColorBlue {
+    color: #438DCA;
+  }
+
+  .page-link {
+    color: #438DCA
+  }
+
+  .page-item.active .page-link {
+    background-color: #438DCA;
+    border-color: #438DCA;
+  }
+
+  .paginatorSlider {
+    width: 40%;
+    display: flex;
+    /* justify-content: center; */
+  }
+  .innerps {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .outerps {
+    display: flex;
+    justify-content: center;
+  }
+  .sliderbtn {
+    background-color: white;
+    border-color: #dee2e6;
+    color: #438DCA;
+    border-radius: 20px;
+    padding: 7px 20px;
+  }
+
+  .btn.disabled, .btn:disabled {
+    color: grey;
+  }
